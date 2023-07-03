@@ -42,7 +42,7 @@ section {
 }
 
 .section-title h1 {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-weight: bold;
   color: orangered;
@@ -254,7 +254,7 @@ nav {
   text-align: center;
   padding: 40px 2% 1px;
   /* background-color: var(--bg-1); */
-  background-color:#F9E0BB;
+  background-color: #F9E0BB;
 }
 
 .numerical-data {
@@ -265,7 +265,7 @@ nav {
   font-size: 3rem;
   /* border: 2px solid black; */
   /* border-radius: 200px; */
-  padding: 50px;
+  padding-top: 50px;
   margin-right: 50px;
   font-weight: bolder;
   color: #ff0000;
@@ -275,6 +275,8 @@ nav {
 
 .numerical-data p {
   font-size: 18px;
+  padding-bottom: 100px;
+  /* color: #ff0000; */
 }
 
 .swiper {
@@ -323,6 +325,7 @@ nav {
   /* margin-top: 80px; */
   /* margin-right: 10px; */
 }
+
 /*
 #services .box .icon i {
   color: #444;
@@ -454,7 +457,7 @@ nav {
 
 #rollUp.scroll {
   opacity: 0.5;
-  background-color:bisque;
+  background-color: bisque;
   height: 6vh;
   width: 6vh;
   display: flex;
