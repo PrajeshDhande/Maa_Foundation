@@ -43,9 +43,10 @@ section {
 
 .section-title h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
-  color: orangered;
+  color: #ffa200;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
   margin: 20px;
   padding-bottom: 20px;
@@ -192,9 +193,8 @@ nav {
   height: 100%;
   width: 100%;
   padding: 0 10%;
-  background-image: linear-gradient(#27464c,
-      rgba(66, 150, 150, 0.525)),
-    url("/images/mainimg.png");
+  background-image: linear-gradient( rgba(232, 255, 255, 0.1), rgba(218, 245, 241, 0.1)), url("/images/mainimg.png");
+  /* background-image: url("/images/mainimg.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,8 +262,8 @@ nav {
   /* background-color: var(--bg-1); */
   /* background-color: #F9E0BB; */
   /* background: url(/images/impact-bg.jpg); */
-  background-image: linear-gradient(rgb(52, 101, 70, 0.7),
-      rgba(218, 247, 255, 0.7)),
+  background-image: linear-gradient(rgba(172, 206, 228, 0.7),
+  rgba(22, 90, 112, 0.963)),
     url("../images/impact-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -282,15 +282,17 @@ nav {
   padding-top: 50px;
   margin-right: 50px;
   font-weight: bolder;
-  color: #ff0000;
+  color: #ffa509;
   /* background-color: #faaf83; */
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
-.numerical-data p {
-  font-size: 18px;
+.numerical-data h3 {
+  /* font-size: 18px; */
   padding-bottom: 100px;
-  /* color: #ff0000; */
+  color: #ffffff;
+  font-weight: bolder;
+  margin-left: -50px;
 }
 
 .myicon {
@@ -323,7 +325,7 @@ nav {
 #services .box {
   padding: 40px;
   border-radius: 50px;
-  background-color: rgb(237, 255, 249);
+  background-color: rgb(226, 249, 255);
   box-shadow: 30px 30px 35px rgba(73, 78, 92, 0.1);
   /* background: #fff; */
   transition: 0.5s;
@@ -335,7 +337,7 @@ nav {
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
-  background-color: rgb(226, 255, 236);
+  background-color: rgba(156, 230, 255, 0.616);
 }
 
 #services .box .icon {
@@ -466,6 +468,15 @@ nav {
 }
 
 /* Footer */
+#contact{
+  background-image: linear-gradient(rgba(234, 228, 228, 0.7),
+  rgba(234, 228, 228, 0.5)),
+    url("../images/footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #rollUp {
   height: 0;
   opacity: 0;
