@@ -248,13 +248,21 @@ nav {
   background-color: var(--primary-color) !important;
 }
 
-/* Achievements */
+/* Impact */
 
 #achievements {
   text-align: center;
   padding: 40px 2% 1px;
   /* background-color: var(--bg-1); */
-  background-color: #F9E0BB;
+  /* background-color: #F9E0BB; */
+  /* background: url(/images/impact-bg.jpg); */
+  background-image: linear-gradient(rgb(52, 101, 70, 0.7),
+      rgba(242, 241, 233, 0.7)),
+    url("../images/impact-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .numerical-data {
@@ -270,13 +278,21 @@ nav {
   font-weight: bolder;
   color: #ff0000;
   /* background-color: #faaf83; */
-  /* text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 .numerical-data p {
   font-size: 18px;
   padding-bottom: 100px;
   /* color: #ff0000; */
+}
+
+.myicon {
+  padding: 16px;
+  height: 130px;
+  width: 130px;
+  border: 1px solid black;
+  border-radius: 65px;
 }
 
 .swiper {
