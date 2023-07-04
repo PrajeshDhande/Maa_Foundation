@@ -670,10 +670,16 @@ nav {
 
 .close-button {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  color: #fff;
-  font-size: 24px;
-  cursor: pointer;
-  background-color: #aaaaaa;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 36px; /* Increase the font size */
+    cursor: pointer;
+    display: flex; /* Center align the cross button */
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Increase the width */
+    height: 40px; /* Increase the height */
+    border-radius: 50%; /* Make it circular */
+    background-color: rgba(0, 0, 0, 0.5); /* Add
 }
