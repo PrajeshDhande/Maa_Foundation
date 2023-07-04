@@ -134,11 +134,7 @@ nav {
   z-index: 100;
   height: var(--nav-height);
   width: 100%;
-  margin-top: 10px;
-  border-radius: 50px;
-  /* background-color:transparent; */
-  /* opacity: 0.5; */
-  background-color: rgb(247, 220, 116);
+   background-color: whitesmoke;
   color: black;
   display: flex;
   justify-content: space-around;
@@ -170,8 +166,18 @@ nav {
   text-decoration: underline;
 }
 
-.hamburger {
+/* .hamburger {
   display: none;
+} */
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
 }
 
 /* Home */
@@ -186,9 +192,9 @@ nav {
   height: 100%;
   width: 100%;
   padding: 0 10%;
-  background-image: linear-gradient(rgb(52, 101, 70, 0.7),
-      rgb(52, 101, 70, 0.7)),
-    url("../content/slide/poor\ kid.jpg");
+  background-image: linear-gradient(#27464c,
+      rgba(66, 150, 150, 0.525)),
+    url("/images/mainimg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
