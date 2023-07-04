@@ -134,7 +134,7 @@ nav {
   z-index: 100;
   height: var(--nav-height);
   width: 100%;
-   background-color: whitesmoke;
+   background-color: rgb(255, 255, 255);
   color: black;
   display: flex;
   justify-content: space-around;
