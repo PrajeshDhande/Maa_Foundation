@@ -630,14 +630,14 @@ nav {
 
 
 /* album */
-#album-div {
+.album-div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px;
 }
 
-#album-div img {
+.album-div img {
   cursor: pointer;
   height: 300px;
   width: 300px;
@@ -649,7 +649,8 @@ nav {
 }
 
 #image-modal {
-  display: none; /* Hide the modal by default */
+  display: none;
+  /* Hide the modal by default */
   position: fixed;
   top: 0;
   left: 0;
@@ -670,16 +671,61 @@ nav {
 
 .close-button {
   position: absolute;
-    top: 20px;
-    right: 20px;
-    color: #fff;
-    font-size: 36px; /* Increase the font size */
-    cursor: pointer;
-    display: flex; /* Center align the cross button */
-    align-items: center;
-    justify-content: center;
-    width: 40px; /* Increase the width */
-    height: 40px; /* Increase the height */
-    border-radius: 50%; /* Make it circular */
-    background-color: rgba(0, 0, 0, 0.5); 
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 36px;
+  /* Increase the font size */
+  cursor: pointer;
+  display: flex;
+  /* Center align the cross button */
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  /* Increase the width */
+  height: 40px;
+  /* Increase the height */
+  border-radius: 50%;
+  /* Make it circular */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.close-button:hover {
+  font-size: 45px;
+  background-color: #000000;
+}
+
+.prev-button,
+.next-button {
+  height: 50px;
+  width: 30px;
+  border-radius: 60%;
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  /* Increase the font size */
+  cursor: pointer;
+  transform: translateY(-50%);
+  /* Vertically center the buttons */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Add a background color */
+  padding: 10px 15px 10px 20px;
+  /* Add padding to the buttons */
+  /* padding: 10px; */
+}
+
+.prev-button:hover,
+.next-button:hover {
+  font-size: 45px;
+  background-color: #000000;
+}
+
+.prev-button {
+  left: 20px;
+}
+
+.next-button {
+  right: 20px;
 }
