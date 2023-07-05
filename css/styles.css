@@ -194,7 +194,7 @@ nav {
   height: 100%;
   width: 100%;
   padding: 0 10%;
-  background-image: linear-gradient(rgba(232, 255, 255, 0.1), rgba(218, 245, 241, 0.1)), url("/images/mainimg.png");
+  background-image: linear-gradient(rgba(232, 255, 255, 0.1), rgba(218, 245, 241, 0.1)), url("../images/mainimg.png");
   /* background-image: url("/images/mainimg.png"); */
   background-position: center;
   background-repeat: no-repeat;
@@ -271,11 +271,6 @@ nav {
   background-size: cover;
   background-attachment: fixed;
 }
-
-.numerical-data {
-  /* margin: 5%; */
-}
-
 .numerical-data h2 {
   font-size: 3rem;
   /* border: 2px solid black; */
@@ -585,10 +580,6 @@ nav {
   display: block;
   width: calc(127% + 1.3px);
   height: 76px;
-}
-
-.wave .shape-fill {
-  /* fill: #c5daa2; */
 }
 
 /** For mobile devices **/
