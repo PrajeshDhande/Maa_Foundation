@@ -630,7 +630,7 @@ nav {
 
 
 /* album */
-.album-div {
+.album-div #first,#second,#third,#fourth{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -697,23 +697,28 @@ nav {
 
 .prev-button,
 .next-button {
-  height: 50px;
+  /* height: 50px;
   width: 30px;
-  border-radius: 60%;
   position: absolute;
   top: 50%;
   color: #fff;
   font-size: 40px;
   font-weight: bold;
-  /* Increase the font size */
   cursor: pointer;
   transform: translateY(-50%);
-  /* Vertically center the buttons */
   background-color: rgba(255, 255, 255, 0.5);
-  /* Add a background color */
-  padding: 10px 15px 10px 20px;
-  /* Add padding to the buttons */
-  /* padding: 10px; */
+  padding: 10px 20px 10px 20px;
+  padding: 10px; */
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 40px; /* Increase the font size */
+  cursor: pointer;
+  transform: translateY(-50%); /* Vertically center the buttons */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a background color */
+  padding: 5px 20px; /* Add padding to the buttons */
+  border-radius: 60%;
+
 }
 
 .prev-button:hover,
